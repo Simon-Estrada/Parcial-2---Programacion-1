@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="contenedorListado" spacing="20" style="-fx-background-color: #D4DE95;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondealbumes.Controllers.AlbumListController">
+<VBox fx:id="contenedorListado" spacing="20" style="-fx-background-color: #D4DE95;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InmobiliariaListController">
 
     <padding>
         <Insets bottom="30" left="30" right="30" top="30" />

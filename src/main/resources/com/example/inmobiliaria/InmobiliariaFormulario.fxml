@@ -15,7 +15,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="612.0" spacing="20.0" style="-fx-background-color: #BAC095;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondealbumes.Controllers.AlbumFormularyController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="612.0" spacing="20.0" style="-fx-background-color: #BAC095;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InmobiliariaFormularioController">
     <children>
         <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="15.0">
             <children>
