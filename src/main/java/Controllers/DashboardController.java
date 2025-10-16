@@ -4,13 +4,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
-
+import Controllers.InmobiliariaListController;
 import java.io.IOException;
 
 public class DashboardController {
 
     @FXML
     private StackPane mainStackPane;
+
 
     @FXML
     void showInmobiliariaFormulario(){

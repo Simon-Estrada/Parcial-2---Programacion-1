@@ -21,7 +21,7 @@ public class InmobiliariaListController implements GoBack{
     private TableColumn<Inmueble, String> colCiudad;
 
     @FXML
-    private TableColumn<Inmueble, String> colHabitaciones;
+    private TableColumn<Inmueble, Integer> colHabitaciones;
 
     @FXML
     private TableColumn<Inmueble,Integer> colPisos;

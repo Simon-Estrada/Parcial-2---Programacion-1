@@ -1,11 +1,13 @@
 module com.example.inmobiliaria {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.base;
 
 
-    opens com.example.inmobiliaria to javafx.fxml;
-    exports com.example.inmobiliaria;
-    exports Controllers;
     opens Controllers to javafx.fxml;
+    opens Objects to javafx.base;
+
+
+    exports Controllers;
+    exports Objects;
+    exports com.example.inmobiliaria;
 }
