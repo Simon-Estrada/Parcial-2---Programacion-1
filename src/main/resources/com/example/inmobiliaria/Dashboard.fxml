@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="mainStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestiondealbumes.Controllers.DashboardController">
+    <children>
+        <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #D4DE95;">
+            <children>
+                <Text fill="#3d4127" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Manejo de Inmobiliaria">
+                    <font>
+                        <Font name="Century Gothic" size="43.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@png-transparent-phonograph-record-lp-record-music-others-miscellaneous-album-disc-jockey-thumbnail-removebg-preview.png" />
+                    </image>
+                </ImageView>
+                <Button mnemonicParsing="false" onAction="#showInmobiliariaFormulario" prefHeight="38.0" prefWidth="130.0" style="-fx-background-color: #636B2F;" text="Agregar Inmueble" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold Italic" size="12.0" />
+                    </font>
+                    <effect>
+                        <DropShadow blurType="ONE_PASS_BOX">
+                            <color>
+                                <Color red="0.7368420958518982" green="0.7177388072013855" blue="0.7177388072013855" />
+                            </color>
+                        </DropShadow>
+                    </effect></Button>
+                <Button mnemonicParsing="false" onAction="#showInmobiliariaList" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #636B2F;" text="Ver Listado de Inmuebles" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                    </font>
+                    <effect>
+                        <DropShadow blurType="ONE_PASS_BOX">
+                            <color>
+                                <Color red="0.5368421077728271" green="0.5368421077728271" blue="0.5368421077728271" />
+                            </color>
+                        </DropShadow>
+                    </effect></Button>
+            </children>
+        </VBox>
+    </children>
+</StackPane>
